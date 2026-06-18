@@ -1,2 +1,11 @@
 # Proxmox-homelab
 My personal Proxmox lab. Documenting every VM, LXC container, and homelab experiment built on my mini PC
+## 🖥️ Hardware Specs & Environment
+
+This homelab is powered by a **Lenovo ThinkCentre M75q** mini PC running **Proxmox VE**. 
+
+Here are the hardware specifications of the node:
+* **CPU:** AMD Ryzen 5 (6 Cores / 12 Threads)
+* **RAM:** 16 GB DDR4
+* **Storage:** 512 GB NVMe SSD
+* **OS/Hypervisor:** Proxmox Virtual Environment (PVE)

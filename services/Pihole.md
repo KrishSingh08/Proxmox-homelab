@@ -16,7 +16,7 @@ curl -sSL https://install.pi-hole.net | bash
 ```
 ## ⚙️ Post-Installation Configuration
 
-Now that Pi-hole is successfully installed via the CLI, you need to configure your devices (or your router) to use it. 
+Now that Pi-hole is successfully installed via the CLI, you need to configure your devices to use it. 
 
 To start blocking ads, go to your device's **Network Settings** and change the primary **DNS server address** to the local **IP address of your Pi-hole LXC container**.
 

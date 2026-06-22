@@ -1,5 +1,5 @@
 # 🛑 Tailscale Setup Notes
-**tailscale** Tailscale is a zero-config, secure mesh VPN (Virtual Private Network) that makes it incredibly easy to connect your devices together, no matter where they are in the world.
+ Tailscale is a zero-config, secure mesh VPN (Virtual Private Network) that makes it incredibly easy to connect your devices together, no matter where they are in the world.
 ---
 
 ## 🚀 How to Install tailscale

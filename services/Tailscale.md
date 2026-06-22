@@ -16,7 +16,7 @@ sudo tailscale up
 ## ⚙️ Post-Installation Configuration
 
 Now that Tailscale is successfully installed via the CLI, you need to configure your devices to use it. 
-### 1. Authenticate 
+###  Authenticate 
 To connect your machine to your personal mesh network (your "tailnet"), initialize Tailscale by running:
 
 1)The terminal will output a unique login URL.

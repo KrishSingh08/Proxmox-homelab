@@ -25,8 +25,3 @@ To connect your machine to your personal mesh network (your "tailnet"), initiali
 4)Once authenticated, your terminal will confirm the successful connection.
 
 
-## 📊 Dashboard Overview
-Below is the visual overview of my **Tailscale Dashboard**:
-
-![Pihole_dashboard](../images/pihole.png)
-

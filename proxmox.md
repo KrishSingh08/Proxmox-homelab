@@ -130,4 +130,47 @@ sudo systemctl restart ssh
 
 ---
 
+## 💡 6. Two-Factor Authentication (2FA) Configuration
 
+Follow these steps to enable Two-Factor Authentication (2FA) on Proxmox VE.
+
+---
+
+###  Create a New User
+
+Before enabling 2FA, create a new user on your system, following the same procedure explained in the previous section.
+
+---
+
+###  Generate the Authentication Key
+
+On your **Linux terminal**, generate the authentication key:
+
+```bash
+authkeygen
+```
+---
+
+###  Configure the Realm in Proxmox GUI
+
+1. Log in to the **Proxmox VE web GUI**.
+2. Navigate to **Datacenter**.
+3. Go to the **Realm** section (`Datacenter > Realm`).
+4. Edit one of the two existing **PVE** realms.
+5. Set the authentication type to:
+```
+Proxmox VE authentication server
+```
+6. Save the changes.
+
+---
+
+### Phase 4: Set Up the Authenticator App
+
+1. Install a **TOTP authenticator extension** on Chrome (or use an mobile authenticator app).
+2. Add a new entry:
+   - Enter a **custom/casual name** for the account (e.g. "Proxmox Server").
+   - Paste the **key** generated in Phase 2.
+3. Save the entry — the extension will now generate a rotating 2FA code.
+
+---

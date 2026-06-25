@@ -181,5 +181,5 @@ Proxmox VE authentication server
 3. Save the entry — the extension will now generate a rotating 2FA code.
 
 ---
-## 💡 7. backup for your proxmox
+
 

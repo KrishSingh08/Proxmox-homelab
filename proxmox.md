@@ -2,11 +2,11 @@
 
 ---
 
-## 1. Before Installation
+## 💡 1. Before Installation
 * **Enable Virtualization:**
 ---
 
-## 2. Installation
+## 💡 2. Installation
 1. **Download the ISO:** Get Proxmox VE from the official website.
 2. **flash the iso into the USB:** Using **Rufus**
 3. **Boot & Setup:** Boot your computer from the USB, select *Install Proxmox VE (Graphical)*, and follow the steps:
@@ -18,7 +18,7 @@
 
 ---
 
-## 3. First Access
+## 💡 3. First Access
 1. **Access the Web GUI:** 
    `https://<YOUR_STATIC_IP>:8006/`
 2. **Login:** 
@@ -61,7 +61,7 @@ adduser <username> sudo
 3. Click **Add**.
 ---
 
-## 💡 Verification
+##  Verification
 then u return to your terminal:
 1. **Switch to your new user** to test their access:
    ```bash
@@ -72,7 +72,7 @@ then u return to your terminal:
 sudo passwd -l root
  ```
 ---
-## 5. SSH Key Configuration
+## 💡 5. SSH Key Configuration
 Follow these steps to generate an SSH key on Windows and configure your remote server to use key-based authentication.
 ---
 ### Phase 1: Generate SSH Key on Windows

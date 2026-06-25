@@ -151,6 +151,15 @@ authkeygen
 ```
 ---
 
+###  Add the Key to the User 
+
+1. in the Proxmox GUI, navigate to **Datacenter > Users**.
+2. Select the user you created.
+3. Click on **Advanced**.
+4. In the **Key ID** field, paste the key you generated 
+---
+
+---
 ###  Configure the Realm in Proxmox GUI
 
 1. Log in to the **Proxmox VE web GUI**.
@@ -161,11 +170,9 @@ authkeygen
 ```
 Proxmox VE authentication server
 ```
-6. Save the changes.
-
 ---
 
-### Phase 4: Set Up the Authenticator App
+### Set Up the Authenticator App
 
 1. Install a **TOTP authenticator extension** on Chrome (or use an mobile authenticator app).
 2. Add a new entry:
@@ -174,3 +181,5 @@ Proxmox VE authentication server
 3. Save the entry — the extension will now generate a rotating 2FA code.
 
 ---
+## 💡 7. backup for your proxmox
+

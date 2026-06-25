@@ -1,4 +1,4 @@
-# Proxmox VE: Quick Installation Guide
+# 🟠Proxmox VE: Quick Installation Guide
 
 ---
 
@@ -72,3 +72,62 @@ then u return to your terminal:
 sudo passwd -l root
  ```
 ---
+## 5. SSH Key Configuration
+Follow these steps to generate an SSH key on Windows and configure your remote server to use key-based authentication.
+---
+### Phase 1: Generate SSH Key on Windows
+Open your **Windows Terminal** and generate a new 4096-bit RSA key pair:
+```bash
+ssh-keygen -t rsa -b 4096
+```
+
+Once generated, display your **public key** so you can copy it:
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+Copy the entire output — you'll need it in the next phase.
+---
+
+### Phase 2: Configure the Remote Server (Linux)
+Create the `.ssh` directory if it doesn't already exist, and set the correct permissions:
+
+```bash
+mkdir -p ~/.ssh
+chmod 700 ~/.ssh
+```
+Open (or create) the `authorized_keys` file:
+```bash
+nano ~/.ssh/authorized_keys
+```
+Paste your **public key** 
+Set the correct permissions on the file:
+```bash
+chmod 600 ~/.ssh/authorized_keys
+```
+---
+
+### Phase 3: configure the sshd_config
+
+Edit the SSH daemon configuration file:
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+Make sure the following options are set:
+
+```ini
+PermitRootLogin no
+PubkeyAuthentication yes
+```
+
+Save and exit, then restart the SSH service to apply the changes:
+
+```bash
+sudo systemctl restart ssh
+```
+
+---
+
+

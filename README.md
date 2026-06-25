@@ -9,6 +9,8 @@ Here are the hardware specifications of the node:
 * **RAM:** 16 GB DDR4
 * **Storage:** 512 GB NVMe SSD
 * **OS/Hypervisor:** Proxmox Virtual Environment (PVE)
+## Proxmox
+
 ## 📚 Running Services & Guides
 
 * [🛑 Pi-hole Setup Guide](./services/Pihole.md)

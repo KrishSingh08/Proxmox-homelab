@@ -2,11 +2,11 @@
 
 ---
 
-## 💡 1. Before Installation
+##  1. Before Installation
 * **Enable Virtualization:**
 ---
 
-## 💡 2. Installation
+##  2. Installation
 1. **Download the ISO:** Get Proxmox VE from the official website.
 2. **flash the iso into the USB:** Using **Rufus**
 3. **Boot & Setup:** Boot your computer from the USB, select *Install Proxmox VE (Graphical)*, and follow the steps:
@@ -17,8 +17,7 @@
 4. **Reboot:**
 
 ---
-
-## 💡 3. First Access
+##  3. First Access
 1. **Access the Web GUI:** 
    `https://<YOUR_STATIC_IP>:8006/`
 2. **Login:** 
@@ -27,7 +26,7 @@
 U have finally installed Proxmox on your device
 ---
 
-## 💡 4. Post-Install Automation Script (Optional)
+##  4. Post-Install Automation Script (Optional)
 To instantly remove the subscription warning , open the Proxmox **Shell** and run this command:
 ```bash
 bash -c "$(wget -qLO - [https://github.com/community-scripts/ProxmoxVE/raw/main/scripts/pve-post-install.sh](https://github.com/community-scripts/ProxmoxVE/raw/main/scripts/pve-post-install.sh))"
@@ -72,7 +71,7 @@ then u return to your terminal:
 sudo passwd -l root
  ```
 ---
-## 💡 5. SSH Key Configuration
+##  5. SSH Key Configuration
 Follow these steps to generate an SSH key on Windows and configure your remote server to use key-based authentication.
 ---
 ### Phase 1: Generate SSH Key on Windows
@@ -130,7 +129,7 @@ sudo systemctl restart ssh
 
 ---
 
-## 💡 6. Two-Factor Authentication (2FA) Configuration
+##  6. Two-Factor Authentication (2FA) Configuration
 
 Follow these steps to enable Two-Factor Authentication (2FA) on Proxmox VE.
 

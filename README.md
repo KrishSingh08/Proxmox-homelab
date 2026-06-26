@@ -15,3 +15,4 @@ Here are the hardware specifications of the node:
 
 * [🛑 Pi-hole Setup Guide](./services/Pihole.md)
 * [🛑 Tailscale Setup Guide](./services/Tailscale.md)
+* [🛑 Immich Setup Guide](./services/immich.md)

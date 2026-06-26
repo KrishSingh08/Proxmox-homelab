@@ -11,7 +11,7 @@ Here are the hardware specifications of the node:
 * **OS/Hypervisor:** Proxmox Virtual Environment (PVE)
 ## Proxmox
 * [🛑 Proxmox Setup Guide](./proxmox.md)
-## 📚 Running Services & Guides
+##  Running Services & Guides
 
 * [🛑 Pi-hole Setup Guide](./services/Pihole.md)
 * [🛑 Tailscale Setup Guide](./services/Tailscale.md)

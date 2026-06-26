@@ -1,4 +1,4 @@
-# 📸 Immich on Proxmox LXC with Docker
+# 🛑 Immich on Proxmox LXC with Docker
 
 Quick guide to install **Immich** (self-hosted photo/video management) inside a Proxmox **LXC** container using Docker Compose.
 

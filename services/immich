@@ -1,3 +1,0 @@
-Immich configuration setup 
-first of all u install on proxmox your favorite lxc distros thenn install docker and docker cmpose for alpine is apk add docker && apk add docker-compose
-after

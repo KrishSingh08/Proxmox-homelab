@@ -57,9 +57,8 @@ To enable HTTPS, you'll first need a domain name. **DuckDNS** lets you create on
    - Fill in the form with your DuckDNS domain and API token
    - Click **Save** and wait for the certificate to be issued
 
-4. **Add your hosts**
+ **Add your hosts**
     go back to the main **Dashboard** and click **Add Proxy Host** to create a new host entry, assigning it the certificate you just generated.
 
-![Nginx Proxy Manager dashboard](../images/PNP.jpg)
 ---
 

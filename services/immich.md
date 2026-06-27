@@ -72,13 +72,10 @@ echo "Europe/Rome" > /etc/timezone
 ```bash
 docker compose up -d
 ```
-
-
 ---
-
 ## 9 — Access Immich
 
 ```
-http://<LXC_IP>:2283
+http://<LXC_IP>:81
 ```
 ---

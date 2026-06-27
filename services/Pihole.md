@@ -8,7 +8,7 @@
 
 For this installation, I used a **Linux Container (LXC)** running **Ubuntu Server** inside Proxmox.
 
-### 📋 Prerequisites
+###  Prerequisites
 Before running the installer, make sure your system package list is up to date and that `curl` is installed. Run the following commands:
 ```bash
 sudo apt update && sudo apt install curl -y

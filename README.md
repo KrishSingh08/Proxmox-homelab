@@ -16,5 +16,5 @@ Here are the hardware specifications of the node:
 * [🛑 Pi-hole Setup Guide](./services/Pihole.md)
 * [🛑 Tailscale Setup Guide](./services/Tailscale.md)
 * [🛑 Immich Setup Guide](./services/immich.md)
-* [🛑 NPN Setup Guide](NPN.md)
-* [🛑 Vaultwarden Setup Guide](Vaultwarden.md)
+* [🛑 NPN Setup Guide](services/Docker/NPN.md)
+* [🛑 Vaultwarden Setup Guide](services/Docker/Vaultwarden.md)

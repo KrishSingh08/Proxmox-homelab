@@ -17,4 +17,4 @@ Here are the hardware specifications of the node:
 * [🛑 Tailscale Setup Guide](./services/Tailscale.md)
 * [🛑 Immich Setup Guide](./services/immich.md)
 * [🛑 NPN Setup Guide](./services//docker/NPN.md)
-* [🛑 Vaultwarden Setup Guide](./services//docker/Vaultwarden.md)
+* [🛑 Vaultwarden Setup Guide](./services/docker/Vaultwarden.md)
